@@ -19,8 +19,10 @@ search.addWidgets([
     templates: {
       item: `
 <article>
-  <h1>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h1>
-  <p>{{description}}</p>
+  <div> <img style="width:100%" src=" {{image_url}} "/></div>
+  <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
+  <small>{{speakers}}</small>
+  <p>{{#helpers.highlight}}{"attribute":"description"} {{/helpers.highlight}}</p>
 </article>
 `,
     },
@@ -71,6 +73,12 @@ search.addWidgets([
     container: '#courageous_rating',
     attribute: 'courageous_rating',
   }),
+//  instantsearch.widgets.sortBy({
+//    container: '#sortby',
+//    items: [
+//	    { label: 'Funny', value: 'ted_talks_funny_desc' },
+//    ],
+//  }),
 ]);
 
 search.start();
