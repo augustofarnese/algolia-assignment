@@ -20,8 +20,8 @@ search.addWidgets([
       item: `
 <article>
   <div> <img style="width:100%" src=" {{image_url}} "/></div>
-  <h3>{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
-  <small>{{speakers}}</small>
+  <div class="author">{{speakers}}</div>
+  <h3 class="title">{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
   <p>{{#helpers.highlight}}{"attribute":"description"} {{/helpers.highlight}}</p>
 </article>
 `,
