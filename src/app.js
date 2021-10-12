@@ -37,10 +37,12 @@ search.addWidgets([
 	  instantsearch.widgets.rangeSlider({
     container: '#funny_rating',
     attribute: 'funny_rating',
+    step: 100,
   }),
 	  instantsearch.widgets.rangeSlider({
     container: '#beautiful_rating',
     attribute: 'beautiful_rating',
+    step: 100,
   }),
 	  instantsearch.widgets.refinementList({
     container: '#tags',
@@ -52,26 +54,32 @@ search.addWidgets([
 	instantsearch.widgets.rangeSlider({
     container: '#jaw_droping_rating',
     attribute: 'jaw_droping_rating',
+    step: 100,
   }),
   instantsearch.widgets.rangeSlider({
     container: '#inspiring_rating',
     attribute: 'inspiring_rating',
+    step: 100,
   }),
   instantsearch.widgets.rangeSlider({
     container: '#ingenious_rating',
     attribute: 'ingenious_rating',
+    step: 100,
   }),
   instantsearch.widgets.rangeSlider({
     container: '#informative_rating',
     attribute: 'informative_rating',
+    step: 100,
   }),
   instantsearch.widgets.rangeSlider({
     container: '#fascinating_rating',
     attribute: 'fascinating_rating',
+    step: 100,
   }),
   instantsearch.widgets.rangeSlider({
     container: '#courageous_rating',
     attribute: 'courageous_rating',
+    step: 100,
   }),
 //  instantsearch.widgets.sortBy({
 //    container: '#sortby',
