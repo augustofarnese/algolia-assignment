@@ -1,14 +1,14 @@
 # Question 1
-Hello,
-
-I'm new to search engines, and there are a lot of concepts I'm not educated on. To make my onboarding smoother, it'd help if you could provide me with some definitions of the following concepts:
-- Records
-- Indexing
-
-I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking." 
-
-Cheers,
-George
+>Hello,
+>
+>I'm new to search engines, and there are a lot of concepts I'm not educated on. To make my onboarding smoother, it'd help if you could provide me with some definitions of the following concepts:
+>- Records
+>- Indexing
+>
+>I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking." 
+>
+>Cheers,
+>George
 
 ## Answer 1
 
@@ -42,22 +42,38 @@ Have a great day,
 Augusto
 
 # Question 2
-Hello,
 
-Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
+>Hello,
+>
+>Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
+>
+>Regards,
+>Matt 
 
-Regards,
-Matt 
+## Answer 2
 
-# Answer 2
+Hi, Matt.
+
+Thank you so much for sharing your experience with Algolia. Your feedback helps us improve our product service for everyone.
+
+Every redesign is intended to provide a better experience for our customers. I'm sorry you had a bad experience with our new dashboard design. 
+
+If you need to clear and delete indexes lots of times, I would suggest you read more about our powerful APIs. Most dashboard features are available via the API. In most cases, the API is the preferred method. Although you will need some engineering work, it should save you a lot of time working with your indexes. You can refer to [our documentation](https://www.algolia.com/doc/guides/getting-started/how-algolia-works/in-depth/ecosystem/#using-the-api-clients) to learn more about our API clients. 
+
+Let me know if it seems suitable for you and we can schedule a call and I will be glad to give an overview of our API usage for you and your engineering team.
+
+Best regards,
+
+Augusto
 
 # Question 3
-Hi,
 
-I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
-
-Regards,
-Leo
+>Hi,
+>
+>I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
+>
+>Regards,
+>Leo
 
 ## Answer 3
 
@@ -65,7 +81,7 @@ Hi, Leo.
 
 It's great to know that you are interested in Algolia as your website search engine.
 
-Algolia provides a set of tools that simplify the process of making and integrating a full search experience into your website. You can have a running search environment very quickly without a lot of engineering work. 
+Algolia provides a set of tools that simplify the process of making and integrating a full search experience into your website. You can have a running search environment without a lot of engineering work. 
 
 The high level process is very simple:
 
@@ -73,6 +89,13 @@ The high level process is very simple:
 2. **Configure relevance**: After pushing your data to Algolia, you will need to configure the relevance of each attribute. Some attributes will be used for searching items, others for sorting and customizing ranking, and others for filtering. 
 3. **Build UI for searching in your website**: Once your data is uploaded and relevance is set up, you can use our [InstantSearch libraries](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/) to build the UI for searching items. 
 
-You can learn more about the whole process, there is a lot more in our [documentation](https://www.algolia.com/doc/).
+You can learn more about the whole process in our [documentation](https://www.algolia.com/doc/).
+
+Don’t hesitate to reach out to me if you have any questions. I'll be glad to help.
+
+Best regards,
+
+Augusto
+
 
 
