@@ -58,21 +58,30 @@
 }
 
 .author {
-    --tw-text-opacity: 1;
-    color: rgba(117,117,117,var(--tw-text-opacity));
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: .75rem;
-    line-height: 1.35;
-	margin-bottom: .5rem;
-	margin-top: 8px;
+  --tw-text-opacity: 1;
+  color: rgba(117,117,117,var(--tw-text-opacity));
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75rem;
+  line-height: 1.35;
+  margin-bottom: .5rem;
+  margin-top: 8px;
 }
 
 .title {
-    --tw-text-opacity: 1;
-	font-size: 1.125rem;
-	margin: 0;
-	padding: 0;
-    line-height: 1.35;
-	font-weight: 700;
+  --tw-text-opacity: 1;
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.ais-Hits-item, .ais-InfiniteHits-item, .ais-InfiniteResults-item, .ais-Results-item {
+  border: none;
+  width: calc(33.333% - 1rem);
+}
+
+.description {
+  font-size: 0.9 em;
 }

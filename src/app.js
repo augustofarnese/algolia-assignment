@@ -18,13 +18,13 @@ search.addWidgets([
     container: '#hits',
     templates: {
       item: `
-<article>
-  <div> <img style="width:100%" src=" {{image_url}} "/></div>
-  <div class="author">{{speakers}}</div>
-  <h3 class="title">{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h3>
-  <p>{{#helpers.highlight}}{"attribute":"description"} {{/helpers.highlight}}</p>
-</article>
-`,
+        <article>
+          <div> <img style="width:100%" src=" {{image_url}} "/></div>
+          <div class="author">{{speakers}}</div>
+          <h3 class="title">{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}} </h3>
+          <p class="description">{{#helpers.highlight}}{"attribute":"description"} {{/helpers.highlight}}</p>
+        </article>
+        `,
     },
   }),
   instantsearch.widgets.pagination({
