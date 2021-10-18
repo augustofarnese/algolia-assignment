@@ -76,7 +76,7 @@ Augusto
 >Leo
 
 ## Answer 3
-
+    
 Hi, Leo.
 
 It's great to know that you are interested in Algolia as your website search engine.
